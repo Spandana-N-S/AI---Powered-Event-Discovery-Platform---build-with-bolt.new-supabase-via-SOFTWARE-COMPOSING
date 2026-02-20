@@ -99,3 +99,19 @@ From idea → live in minutes—no DevOps hassle.
 
 Built as part of Liam Ottley's "Software Composing" guide.  
 Questions? Reach out—happy to demo or discuss prompts/debug flow!
+
+## My Role & Process: The Human Side of Software Composing
+
+While Bolt.new handled code generation, **I drove every decision** like a product owner + director:
+
+- **Idea Conception** — Chose a real-world SaaS demo: Event Discovery Platform for music events (browse, create, manage, RSVP). Prioritized applicability over toy examples to show revenue potential (user profiles, auth, persistence).
+
+- **Prompting Strategy** — Used "software composing": high-level prompts first ("Build a modern music event discovery app with user auth"), then granular/iterative ("Add Edit/Delete buttons bottom-left in event modal for creator only"). Leveraged Relevance UI Designer tool to refine ideas → better prompts. Added screenshot-based prompting for visual precision.
+
+- **UI/UX Decisions** — Started with sketches → Relevance tool questions ("responsive? web/mobile?") → focused on intuitive flow (hero → event cards → modals). Prioritized mobile-first, clean cards, smooth interactions for enjoyable experience.
+
+- **Feature Prioritization** — Broke into phases: 1) Front-end UI first (visual foundation), 2) Backend/DB + APIs (data/memory + communication), 3) Auth + personalization (user accounts, security via Supabase RLS).
+
+- **Testing & Debugging (Conversational Iteration)** — Iterated incrementally: build → test immediately. Used Bolt.new "discuss mode" + "attempt fix" for quick chats ("Not seeing sign-in modal—why?"). For stubborn issues: browser console (clear logs, reproduce bug, read errors/logs/state like "event ID undefined on delete"), Supabase dashboard verification, then fed specifics back to AI. On "error loops," reverted to stable version → rephrased smaller prompts. This real-time loop (console inspect + AI chat) fixed bugs fast without deep code dives.
+
+This process taught me prompt precision, prioritization, UX empathy, and debugging fundamentals—core skills for AI-era building.
