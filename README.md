@@ -100,7 +100,7 @@ From idea → live in minutes—no DevOps hassle.
 Built as part of Liam Ottley's "Software Composing" guide.  
 Questions? Reach out—happy to demo or discuss prompts/debug flow!
 
-## My Role & Process: The Human Side of Software Composing
+## My Role & Process: Software Composing
 
 While Bolt.new handled code generation, **I drove every decision** like a product owner + director:
 
