@@ -28,6 +28,33 @@ Coding from scratch is slow, error-prone, and expensive—especially for prototy
 - Affordable/accessible → perfect for indie hackers, agencies, small biz solutions
 In 2026, speed + iteration wins over handwriting everything.
 
+## Tools Used in Software Composing Process
+
+This project was built using a modern AI-first workflow—no manual coding from scratch. Here's the key stack:
+
+- **Bolt.new** (primary builder)  
+  Browser-based AI app builder that turns natural language prompts into full-stack apps (frontend + backend + integrations). Generated the entire Event Discovery Platform: UI, logic, Supabase connection, auth, and features. Ideal for rapid prototyping and beginners—chat to build, iterate, debug, and deploy.
+
+- **Supabase** (backend/database)  
+  Modern BaaS (Backend-as-a-Service) for PostgreSQL database, authentication (email/password), row-level security (RLS), and storage (e.g., event images). Bolt.new integrates seamlessly—handles persistent data, user accounts, and secure access without manual server setup.
+
+- **Netlify** (deployment)  
+  One-click hosting platform integrated with Bolt.new. Publishes the app live instantly with global CDN, auto-builds on changes, previews, and free tier—zero DevOps needed for production-ready URLs.
+
+- **Figma** (UI/UX planning)  
+  Used for initial wireframing and visual breakdown of screens (hero, event cards, modals, profiles). Provided a clear design reference to make prompts more precise and effective.
+
+- **Relevance UI Designer Tool** (AI-assisted design planning)  
+  Custom AI tool to refine UI/UX ideas: describe the app → it asks guiding questions → outputs detailed design specs. Translated high-level vision into actionable prompts for Bolt.new.
+
+- **ChatGPT / Claude** (supplemental LLM)  
+  General-purpose AI for brainstorming, clarifying web concepts (front-end/back-end/databases/APIs/auth), refining prompts, or debugging ideas outside Bolt.new.
+
+- **Cursor / Windsurf / Replit Agent** (advanced/optional)  
+  Mentioned for future scaling: AI code editors or agents for devs wanting more control over generated code, debugging existing repos, or incremental enhancements.
+
+This workflow emphasizes **prompt engineering + iteration** over traditional dev—focusing on vision, clear descriptions, testing small changes, and using AI chat/console for fixes. Result: functional app shipped in hours.
+
 ## How I Built It (Prompts, Iterations, Debugging)
 Everything via natural language in Bolt.new—no manual code.
 
