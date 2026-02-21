@@ -41,6 +41,9 @@ This project was built using a modern AI-first workflow—no manual coding from 
 - **Netlify** (deployment)  
   One-click hosting platform integrated with Bolt.new. Publishes the app live instantly with global CDN, auto-builds on changes, previews, and free tier—zero DevOps needed for production-ready URLs.
 
+- **Loveable**
+  It is a vibe coding App. It's great for building beautiful web designs.
+
 - **Figma** (UI/UX planning)  
   Used for initial wireframing and visual breakdown of screens (hero, event cards, modals, profiles). Provided a clear design reference to make prompts more precise and effective.
 
